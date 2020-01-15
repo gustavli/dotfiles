@@ -53,7 +53,7 @@ date = %H : %M
 
 [module/battery]
 type = internal/battery
-full-at = 99
+full-at = 95
 
 ;from ls -l /sys/class/power_supply/
 battery = BAT0
@@ -61,7 +61,7 @@ adapter = ADP1
 
 label-charging = CHR %percentage%
 label-discharging = %percentage%
-label-full = %percentage%
+label-full = FULL
 
 format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
@@ -78,7 +78,7 @@ animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
-animation-charging-framerate = 750
+animation-charging-framerate = 1000
 
 animation-discharging-0 = 
 animation-discharging-1 = 
