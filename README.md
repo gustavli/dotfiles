@@ -1,6 +1,6 @@
 # dotfiles
 
-#Requirements:
+# Requirements:
 
 ## Programs:
 * i3-lock-fancy
@@ -13,7 +13,7 @@
 
 
 
-##Fonts:
+## Fonts:
 * FontAwesome
 * Material Design icons
 * Wuncon Siji
